@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">Lab08</string>
+  <string name="ApplicationName">Manejo de recursos en Android</string>
+  <string name="UserName">Nombre de Usuario</string>
+  <string name="Status">Estatus</string>
+  <string name="Token">Código</string>
 </resources>

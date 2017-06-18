@@ -2,6 +2,48 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/xamarin_diplomado_30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HeaderImageview" />
+    <TextView
+        android:text="@string/UserName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/NameUser" />
+    <TextView
+        android:text="Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ResultUserName" />
+    <TextView
+        android:text="@string/Status"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/StatusValidation"
+        android:layout_marginTop="20px" />
+    <TextView
+        android:text="Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ResultStatus" />
+    <TextView
+        android:text="@string/Token"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TokenValidation"
+        android:layout_marginTop="20px" />
+    <TextView
+        android:text="Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ResultCode" />
 </LinearLayout>
